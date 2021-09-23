@@ -496,6 +496,7 @@ th.bg-dark {
   background-size: cover;
   padding: 1rem;
   box-shadow: 2px 2px 5px #000;
+  border-radius: 10px;
 }
 
 .divcurso__contenedor {
@@ -511,6 +512,7 @@ th.bg-dark {
   padding: 1rem;
   text-align: center;
   box-shadow: 2px 2px 5px #000;
+  border-radius: 10px;
 }
 
 .divcurso__parrafo {
