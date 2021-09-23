@@ -1,0 +1,44 @@
+/*************  instalaciones  ***************/
+
+.divFlexinsta{
+    display: flex;
+    justify-content:space-around;    
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction:row;  
+    &__img{
+      box-shadow: 3px 3px 10px $color-negro;
+      margin-bottom: 2rem;
+      border-radius: 5%;
+    }
+ }
+ .ordenInverso{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+   flex-direction:row-reverse;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ 
+}
+.parraInsta{
+    width: 600Px;
+    margin: 2rem 1rem 1rem 1rem;
+    text-align: right;
+}
+.parraInstaInv{
+   width: 600Px;
+   margin: 5rem 1rem 1rem 1rem;
+   text-align: left;
+}
+
+.h3Insta{
+   text-shadow: 1px 1px $color-primario;
+   font-size: 26px;
+   font-weight: bold;
+   margin-left: 2rem;
+   text-align: center;
+   }

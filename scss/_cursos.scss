@@ -1,0 +1,88 @@
+
+    /* ************ cursos ********** */
+.divcurso{
+    display: flex;
+   justify-content:center;    
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction:row;  
+ }
+
+ .divcurso__spamDestacado{ 
+     display: flex; 
+     height: 300px; 
+    letter-spacing: 1px;
+    background-color:$color-negro ; /*formato texto destacado de etiqueta */
+    color:$color-primario; 
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px;
+    padding: 2rem 0 2rem 0;
+    border: solid $color-primario 1px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 12px $color-primario;
+   
+}
+
+.divcurso__h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 2rem 0 1rem 2rem;
+    color: $color-primario;
+    text-shadow: 1px 1px $color-negro;
+
+}
+.divcurso__spam{
+    width: 600px;
+    padding: 10px;
+    margin: 2rem 1rem 2rem 1rem;   
+    text-shadow: 1px 1px $color-negro; 
+}
+.divcursoInverso{
+    display: flex;
+    border: solid $color-negro 1px;
+    color: #fff;;
+    margin: 1rem;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/452/204/841/rock-climbing-grayscale-photo-of-man-climbing-on-mountain-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px $color-negro;
+    
+}
+.divcurso__contenedor{
+    background-image: url(https://cdn1.matadornetwork.com/blogs/1/2014/08/Black-Corridor-940x1253.jpg);
+    background-size: cover;
+    color:#fff;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    border: solid $color-negro 1px;
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 2px 2px 5px $color-negro;
+   
+}
+.divcurso__parrafo{
+    width: 80%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+
+  }
+  
+.divcurso__img{
+    box-shadow: 2px 2px 5px $color-negro;
+    display: flex;    
+    justify-content: center;
+    
+}
+

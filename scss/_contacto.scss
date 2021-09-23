@@ -1,0 +1,42 @@
+ /* contanto*/
+
+ .form-label{
+    color: $color-primario;
+    text-shadow: 1px 1px #000;
+}
+.form-control {
+    box-shadow: 0px 0px 8px 1px #fcc1006e;
+}
+.form-select {
+    box-shadow: 0px 0px 8px 1px #fcc1006e;
+}
+
+
+.form-check .form-check-input {
+     float: none;
+}
+.form-check {    
+    text-align: center;
+    color: whitesmoke;
+}
+.btn-primary {
+    color: $color-negro;
+    font-weight: 800;
+    background-color:$color-primario;
+    border-color:$color-primario;
+    }
+
+.btn-primary:hover {
+    color: $color-primario;
+    font-weight: 800;
+    background-color:$color-negro;
+    border-color:$color-primario;    
+       
+}
+
+.botones{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}

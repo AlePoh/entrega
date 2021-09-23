@@ -1,0 +1,226 @@
+ /*********************************************/
+  /**********   @MEdia *************************/
+  /*********************************************/
+
+  @media (max-width: 768px) {
+
+    
+
+    .hero__h1{            
+            font-size: 40px;
+            text-align: center;
+        }
+           
+             
+
+    .hero__contem{
+    width: 100%;
+    font-size: 30px;  
+    padding: 3rem;   
+    }
+    .h2titulo{
+        font-size: 25px;       
+    }
+  
+    .h3, h3 {
+        margin-top: 1.5rem;
+        font-size: 20px;
+    }
+
+    .divDestacados{
+       display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+                   
+    }
+
+     .nosotrosGrid {
+        
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 3;
+        font-size: 14px;
+        grid-template-areas: 
+            "im1"
+            "tex1"
+            "img2"
+            "tex2"   
+        ;
+      
+ }
+ .nosotrosGrid__hijo{
+      
+    display: flex;
+    align-content: center;
+    justify-content:center ;
+   
+}
+.nosotrosGrid__imagen{  
+    width: 100%;
+    align-items: center;
+    justify-content:center ;
+}
+
+.videoSlida{    
+      display: flex;
+    align-items: center;
+    justify-content:center ;
+    }
+.galefiaImg{
+      
+        width: 90%;
+        height: 200px;
+        margin: 0 auto;
+        overflow-x: auto;
+
+}
+
+
+
+ .divFfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-items: center;
+  text-align: center;
+ }
+
+ .noMostra{
+     display: none;
+ }
+ .tituloH3Curso{
+    margin: 2rem ;
+ }
+
+.parraDiv{
+    width: 100%;
+    text-align: center;
+  }
+  .spancurso{
+    width: 100px;
+    margin: 1rem; 
+    height: 50px;  
+}
+.destacadoCurso{      
+    padding: 1rem 0 2rem 0;
+    
+}
+.divcurso__spamDestacado{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: 90px;
+    width: 140px;
+
+}
+.navbar>.container{    
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+/*---------Outdoor--------------*/
+
+.grid-contenedor {
+   
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: 
+        "item1"
+        "item2" 
+        "item3"
+        "item4" 
+        "item5" 
+        "item6"
+    ;
+}
+.card__img {
+    border-radius: 10%;
+  }
+
+.divFlexinsta{
+    justify-content:center;    
+    flex-direction:column;  
+ }
+ .parraInstaInv{
+    display: flex;
+    width: 300px;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.parraInsta{
+    margin: 1rem;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.divFlexinsta{   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction:row;  
+ }
+ .textForm{  
+   width: 100%;
+   height: 100%;
+    
+}
+ /* ---- Curso ---*/
+ .divcurso{  
+    flex-direction:column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .divcurso__h3{
+
+    margin: 2rem ;
+
+}
+ .divcurso__contenedor{
+    display: flex;
+    flex-direction: column; 
+    width: 95%;  
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: .5rem;
+    background-image: url(https://gooddaysacramento.cbslocal.com/wp-content/uploads/sites/31326160/2012/12/rock-climbing.jpg?w=640);
+    background-size: cover;
+    
+   
+}
+.divcursoInverso{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: .5rem;
+}
+.divcurso__parrafo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .divcurso__spam{
+    width: 100px;
+    margin: 1rem;   
+    text-align: center;
+}
+.divcurso__spamDestacado{      
+    padding: 1rem 0 2rem 0;
+   
+}
+
+.divcurso__h3{
+    text-align: center;
+
+}
+}
